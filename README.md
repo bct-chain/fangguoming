@@ -1,15 +1,15 @@
 <p align="center" width="100%">
-    <img height="100" src="https://github.com/said7388/developer-portfolio/assets/77630868/c0064908-cd5f-4751-a77c-eba90a62b55c">
+    <img height="100" src="https://github.com/bct-chain/developer-portfolio/assets/77630868/c0064908-cd5f-4751-a77c-eba90a62b55c">
 </p>
 
 ---
-# [Built Portfolio With GitHub ](https://github.com/said7388/github-portfolio)
+# Developer Portfolio - Guoming Fang
 
 ---
 
-# Developer Portfolio
+# Portfolio Website
 
-### Are you struggling to create a professional portfolio website? Look no further! You can use the Developer Portfolio template and create your very own personalized portfolio today! My website is designed to be user-friendly and easily customizable, making it perfect for both developers and freelancers.
+### A modern, responsive portfolio website built with Next.js, featuring a space-themed design with bilingual support (English/Chinese). This portfolio showcases my work as a Full Stack and Blockchain Developer, including projects, skills, experience, and blog posts.
 
 ---
 
@@ -17,7 +17,7 @@
 
 ![](./public/image/screen.png)
 
-## View live preview [here](https://abusaid.netlify.app/).
+## View live preview [here](https://guomingfang.vercel.app/).
 
 ---
 
@@ -34,14 +34,23 @@
 
 # Sections :bookmark:
 
-- HERO SECTION
-- ABOUT ME
-- EXPERIENCE
-- SKILLS
-- PROJECTS
-- EDUCATION
-- BLOG
-- CONTACTS
+- **HERO SECTION** - Introduction with name, designation, and call-to-action buttons
+- **ABOUT ME** - Personal description and profile image
+- **EXPERIENCE** - Work experience timeline
+- **SKILLS** - Technical skills showcase with animated marquee
+- **PROJECTS** - Featured projects with detailed cards
+- **EDUCATION** - Educational background
+- **BLOG** - Latest blog posts from Dev.to
+- **CONTACTS** - Contact form and social links
+- **FOOTER** - Social media links and navigation
+
+## Features
+
+- 🌐 **Bilingual Support** - Switch between English and Chinese
+- 🎨 **Space-themed Design** - Modern purple/cyan color scheme
+- 📱 **Fully Responsive** - Works on all devices
+- ⚡ **Fast Performance** - Built with Next.js 14
+- 🔄 **Dynamic Content** - Blog posts fetched from Dev.to API
 
 ---
 
@@ -68,7 +77,7 @@ git --version
 To Fork the repo click on the fork button at the top right of the page. Once the repo is forked open your terminal and perform the following commands
 
 ```
-git clone https://github.com/<YOUR GITHUB USERNAME>/developer-portfolio.git
+git clone https://github.com/bct-chain/developer-portfolio.git
 
 cd developer-portfolio
 ```
@@ -109,31 +118,42 @@ NEXT_PUBLIC_RECAPTCHA_SECRET_KEY = # For captcha verification on contact form
 NEXT_PUBLIC_RECAPTCHA_SITE_KEY =
 ```
 
-### Then, Customize data in the `utils/data` [folder](https://github.com/said7388/developer-portfolio/tree/main/utils/data).
+### Then, Customize data in the `utils/data` [folder](https://github.com/bct-chain/developer-portfolio/tree/main/utils/data).
 
-Eg:
+Example configuration:
 
 ```javascript
 export const personalData = {
-  name: "Guoming Fang",
-  profile: "/profile.png",
-  designation: "Full-Stack Software Developer",
-  description: "My name is Guoming Fang....",
-  email: "abusaid7388@gmail.com",
-  phone: "+8801608797655",
-  address: "Dhaka, Bangladesh",
-  github: "https://github.com/said7388",
-  facebook: "https://www.facebook.com/abusaid.riyaz/",
-  linkedIn: "https://www.linkedin.com/in/abu-said-bd/",
-  twitter: "https://twitter.com/said7388",
-  stackOverflow: "https://stackoverflow.com/users/16840768/abu-said",
-  leetcode: "https://leetcode.com/said3812/",
-  devUsername: "said7388",
-  resume: "...",
+  name: {
+    en: "Guoming Fang",
+    zh: "方国明"
+  },
+  profile: "/image/guoming fang.png",
+  designation: {
+    en: "Full Stack and Blockchain Developer",
+    zh: "全栈和区块链开发者"
+  },
+  description: {
+    en: "I'm Guoming Fang, a Full Stack and Blockchain Frontend Developer with extensive experience in building and delivering innovative decentralized applications...",
+    zh: "我是方国明，一名全栈和区块链前端开发者..."
+  },
+  email: "guomingfang815@gmail.com",
+  phone: "+818084710263",
+  address: "3 Lor Sarina, Singapore 416649",
+  github: "https://github.com/bct-chain",
+  stackOverflow: "https://stackoverflow.com/users/31108354/guoming-fang",
+  telegram: "https://t.me/fangguoming",
+  discord: "moddy650",
+  devUsername: "fangguoming",
+  resume: "https://drive.google.com/file/d/1Wy-TpD8rUZiaZvsa3qtOWkAnmqXYxlte/view?usp=sharing",
+  cake: "https://www.cake.me/fangguoming?locale=en",
+  forem: "https://forem.com/fangguoming"
 };
 ```
 
-`devUsername` Used for fetching blog from `dev.to`.
+**Note:** 
+- `devUsername` is used for fetching blog posts from `dev.to`
+- The portfolio supports bilingual content (English/Chinese) - update both `en` and `zh` fields for name, designation, and description
 
 ---
 
@@ -141,15 +161,37 @@ export const personalData = {
 
 # Packages Used :package:
 
-| Used Package List  |
-| :----------------: |
-|        next        |
-|  @emailjs/browser  |
-|    lottie-react    |
-| react-fast-marquee |
-|    react-icons     |
-|   react-toastify   |
-|        sass        |
-|    tailwindcss     |
+| Package | Purpose |
+| :------ | :------ |
+| next | React framework for production |
+| @emailjs/browser | Email service integration |
+| lottie-react | Animated illustrations |
+| react-fast-marquee | Scrolling animations for skills |
+| react-icons | Icon library |
+| react-toastify | Toast notifications |
+| sass | CSS preprocessor |
+| tailwindcss | Utility-first CSS framework |
+| react-google-recaptcha | reCAPTCHA integration |
+| swiper | Touch slider for projects |
 
 ---
+
+# Contact :email:
+
+- **Email:** guomingfang815@gmail.com
+- **GitHub:** [@bct-chain](https://github.com/bct-chain)
+- **Stack Overflow:** [guoming-fang](https://stackoverflow.com/users/31108354/guoming-fang)
+- **Telegram:** [@fangguoming](https://t.me/fangguoming)
+- **Dev.to:** [@fangguoming](https://dev.to/fangguoming)
+- **Cake.me:** [fangguoming](https://www.cake.me/fangguoming?locale=en)
+- **Forem:** [fangguoming](https://forem.com/fangguoming)
+
+---
+
+# License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+**Built with ❤️ by Guoming Fang (方国明)**

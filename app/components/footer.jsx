@@ -90,9 +90,9 @@ function Footer() {
         </div>
         
         {/* Three Column Layout */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12 mb-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12 mb-8">
           {/* Developer Column */}
-          <div className="flex flex-col">
+          <div className="flex flex-col justify-center">
             <h3 className="text-lg font-semibold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-400">
               {t.footer.developer}
             </h3>
@@ -116,7 +116,7 @@ function Footer() {
           </div>
 
           {/* Connect Column */}
-          <div className="flex flex-col">
+          <div className="flex flex-col justify-center">
             <h3 className="text-lg font-semibold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-400">
               {t.footer.connect}
             </h3>
@@ -140,7 +140,7 @@ function Footer() {
           </div>
 
           {/* About Column */}
-          <div className="flex flex-col">
+          <div className="flex flex-col justify-center">
             <h3 className="text-lg font-semibold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-400">
               {t.footer.about}
             </h3>
